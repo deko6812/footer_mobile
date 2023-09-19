@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'canela';
+    font-style: italic;
+    src: url("https://cdn.shopify.com/s/files/1/1737/4539/files/canela-light-italic.woff2?v=1693500533") format("woff2");
+}
+
+@font-face {
+    font-family: 'canela';
+    src: url("https://cdn.shopify.com/s/files/1/1737/4539/files/canela-light.woff2?v=1693500534") format("woff2");
+}
+
+@font-face {
+    font-family: 'neue';
+    font-weight: 500;
+    src: url("https://cdn.shopify.com/s/files/1/1737/4539/files/neue-medium.woff2?v=1693500638") format("woff2");
+}
+
+@font-face {
+    font-family: 'neue';
+    font-weight: 400;
+    src: url("https://cdn.shopify.com/s/files/1/1737/4539/files/neue-book.woff2?v=1693500632") format("woff2");
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'neue' ;
+}
+footer{
+    background-color: #161010;
+    padding: 32px 16px 24px;
+}
+
+.navi_top, .social_icon, .navi_bot_a, .navi_bot{
+    display: flex;
+}
+
+.navi_top_list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 14px;
+    gap: 32px;
+}
+
+.social_icon{
+    padding-top: 32px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #8D8583;
+    gap: 20px;
+}
+
+.insta, .fb{
+    display: grid;
+    place-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    border: 1px solid #8D8583;
+    gap: 20px;
+}
+
+.makabi_logo{
+    padding-top: 24px;
+}
+
+.navi_bot{
+   flex-direction: column;
+   gap: 32px;
+}
+
+.navi_bot_a{
+    justify-content: space-between;
+    width: 50%;
+}
+
+.navi_inner_right, .navi_inner_left{
+    list-style-type:none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 14px;
+    padding-top: 48px;
+}
+
+.navi_bot_b{
+font-size: 12px;
+color: #8D8583;
+}
